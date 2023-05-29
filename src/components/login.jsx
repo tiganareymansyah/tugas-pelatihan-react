@@ -6,7 +6,7 @@ export default function Login() {
         <>
             <KotakText nama = "Email"/>
             <KotakText nama = "Kata Sandi"/>
-            <Tombol />
+            <Tombol kata = "Login"/>
         </>
     )
 }
