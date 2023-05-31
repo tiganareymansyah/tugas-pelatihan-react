@@ -1,3 +1,7 @@
 export default function Tombol(z) {
-    return <button>{z.kata}</button>
+    return (
+        <div className="div-tombol">
+            <button>{z.kata}</button>
+        </div>
+    )
 }
