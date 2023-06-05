@@ -1,18 +1,40 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .judul {
-  background-color: red;
+  display: flex;
+  align-items: center;
+  background-color: rgb(177, 11, 11);
+  height: 64px;
 }
 
-.main {
+.div-1 {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  margin-top: 10px;
+  width: 400px;
+  flex-wrap: wrap;
 }
 
-.main img {
+.div-product {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(177, 11, 11);
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.div-product img {
   width: 100px;
+  padding-left: 10px;
 }
