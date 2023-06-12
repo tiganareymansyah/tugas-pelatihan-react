@@ -1,0 +1,7 @@
+.judul {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(177, 11, 11);
+    height: 64px;
+  }
