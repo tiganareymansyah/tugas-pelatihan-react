@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* css header */
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    color: #0ff;
+    background-color: #000;
+}
+
+.header-nav .button-logout {
+    background-color: #0ff;
+    height: 32px;
+    padding-inline: 16px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.judul {
+    letter-spacing: 3px;
+}
+
+/* css div */
+
+.div-human-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.div-human-data1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #bbb;
+    border-radius: 16px;
+    width: 256px;
+    margin-top: 8px;
+    padding: 8px 16px;
+}
+
+.h2-judul {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.div-human-data1 .p-id{
+    padding-top: 16px;
+}
+
+/* css main */
+
+.main-human {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+    padding: 8px 16px;
+}
+
+.main-human h2 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main-human .div-form-tambah {
+    background-color: #bbb;
+    border-radius: 16px;
+    padding: 16px 32px;
+}
+
+.main-human .div-form-tambah form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 16px;
+}
+
+.div-form-tambah input[type = number] {
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+}
+
+.div-form-tambah input[type = text] {
+    width: 257px;
+}
+
+.div-form-tambah .div-button-tambah {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.div-button-tambah button {
+    background-color: #0ff;
+    height: 32px;
+    padding-inline: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.main-human .div-form-edit {
+    background-color: #bbb;
+    border-radius: 16px;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-form-edit button {
+    background-color: #0ff;
+    height: 32px;
+    padding-inline: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-form-edit .div-button-edit {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.div-button-edit input[type = number], input[type = text] {
+    width: 237px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+}
+
+.main-human .div-form-hapus {
+    background-color: #bbb;
+    border-radius: 16px;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-form-hapus .div-button-hapus {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.div-button-hapus button {
+    background-color: #0ff;
+    height: 32px;
+    padding-inline: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-button-hapus input[type = number] {
+    width: 237px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+}
